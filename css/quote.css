@@ -1,0 +1,80 @@
+body {
+    background-color: #f1f2f6;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: #f1f2f6;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    
+    background-color: #57606f;
+
+}
+
+.main-quote {
+    display: flex;
+    background: transparent;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-inside-quote {
+    background: transparent;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.inside-quote {
+    background: #0c2461;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 27px 7px #a4b0be;
+    padding: 30px 15px 20px 15px;
+}
+.inside-quote h3 , .inside-quote p {
+    margin: 0;
+}
+.inside-quote button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: flex-end;
+    font-family: cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #9AECDB;
+    color: #182C61;
+    transition: all 0.6s ;
+    user-select: none;
+    color: #eb3b5a;
+}
+/* .inside-quote button:hover {
+    background-color: #32ff7e;
+} */
+.inside-quote button:focus-visible {
+    outline: none;
+}
+
+.content h2 {
+    text-align: center;
+}
+.changeQoute {
+    align-self: flex-end;
+}
+.author_name {
+    margin-bottom: 40px !important;
+}
